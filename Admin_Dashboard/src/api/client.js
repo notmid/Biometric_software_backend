@@ -2,7 +2,7 @@
 // Backend is expected to be running locally at BASE_URL (see README for the
 // full endpoint list this was built against).
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://biometric-software-backend.onrender.com';
 
 const TOKEN_KEY = 'authToken';
 

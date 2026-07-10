@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProJenius Admin Dashboard</title>
+    <!-- Tailwind via CDN — simplest way to get utility classes without extra build config.
+         Config below registers our brand palette as real Tailwind color names
+         (bg-brand, text-muted, border-line, etc.) so no inline styles are needed anywhere. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: '#0077FF',
+              brandSoft: '#EAF3FF',
+              ink: '#1A1D29',
+              muted: '#5B5F6E',
+              subtle: '#9AA0AC',
+              faint: '#B5B9C2',
+              success: '#1D9A5B',
+              successSoft: '#E3F7EA',
+              warning: '#B8791A',
+              warningSoft: '#FEF3E0',
+              danger: '#C4392D',
+              dangerSoft: '#FCE7E7',
+              line: '#EAEEF4',
+              page: '#FAFBFC',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
